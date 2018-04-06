@@ -1,8 +1,3 @@
 # random_flutter_app
-
-A new Flutter project.
-
-## Getting Started
-
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+My first App Development project using Flutter
+Flutter is an open-source mobile application development SDK created by Google. It is used to develop applications for Android and iOS.
