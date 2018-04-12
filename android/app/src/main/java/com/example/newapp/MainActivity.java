@@ -1,4 +1,4 @@
-package com.example.randomflutterapp;
+package com.example.newapp;
 
 import android.os.Bundle;
 
