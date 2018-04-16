@@ -1,20 +1,19 @@
 import 'package:flutter/material.dart';
+import 'app_home.dart';
+void main()=> runApp(new ChatApp());
 
-void main() => runApp(new MyApp());
-
-class MyApp extends StatelessWidget {
+class ChatApp extends StatelessWidget{
   @override
-  Widget build(BuildContext context) {
+  Widget build (BuildContext context) {
     return new MaterialApp(
-      title: 'hello',
-      home: new Scaffold(
-        appBar: new AppBar(
-          title: new Text('Hello'),
+        title: "Flutter ChatApp",
+        theme: new ThemeData(
+          primaryColor: Colors.blue,
+          accentColor: Colors.white
         ),
-        body: new Center(
-          child: new Text('You\'re reading this'),
-        ),
-      ),
+        home : new AppHome(),
     );
+
   }
+
 }
