@@ -1,6 +1,5 @@
-# new_app
+UI Replica of a simple ChatApp using flutter.
 
-A new Flutter project.
 
 ## Getting Started
 
